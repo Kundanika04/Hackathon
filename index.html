@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        body{
+            font-size: larger;
+            background-color:#f4f4f4;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            height:100vh;
+        }
+        .container{
+            padding:50px 30px 50px 30px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button{
+            padding:10px;
+            color: white;
+            background-color: rgb(10, 183, 183);
+            border:none;
+            border-radius: 5px;
+            font-size: large;
+        }
+        button:hover{
+            color:black;
+            background-color: rgb(154, 248, 248);
+            border:none;
+            border-radius: 20px;
+        }
+        button:active{
+            color:white;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            border-radius: 5px;
+            background-color: rgb(154, 248, 248);
+            padding:10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the beginner cybersecurity toolkit</h1>
+            <h3 align="center">To begin, try any of the following:</h3>
+            <div class="container2">
+                <!-- <button id="generate" onclick="">Generate a password</button>
+                <br>
+                <br>
+                <button id="store">Store your password</button>
+                <br>
+                <br>
+                <button id="strength">Check password strength</button>
+                <br>
+                <br>
+                <button id="ip">IP Lookup</button>
+             -->
+                <ul style="display:flex ;justify-content: space-around;">
+                    <li><a href="passwordGenerator.html" target="_self" link="blue">Generate password</a></li>
+                    <li><a href="passwordManager.html" >Store your password</a></li>
+                    <li><a href="" >Check password strength</a></li>
+                    <li><a href="" >IP Lookup</a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="external.js"></script>
+    </body>
+</html>
